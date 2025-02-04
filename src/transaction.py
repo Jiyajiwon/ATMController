@@ -43,7 +43,7 @@ def deposit(account):
 
 
 def withdraw(account):
-    '''인출'''
+    '''인출 구현'''
 
     while True:
         amount = int(input("인출하고 싶은 금액을 숫자로 입력해주세요.: "))
