@@ -1,5 +1,5 @@
 from src.authentication import insert_card
-from src.atm import select_account
+from src.atm import select_account, select_service
 
 def main():
     '''ATM 실행'''
@@ -15,6 +15,8 @@ def main():
     if not selected_account:
         print("해당하는 계좌가 없습니다. 다시 시도하세요.")
         return None
+    
+    select_service(selected_account)
 
 
 if __name__ == "__main__":
