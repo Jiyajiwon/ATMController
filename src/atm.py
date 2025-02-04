@@ -1,4 +1,4 @@
-from src.transaction import check_balance
+from src.transaction import check_balance, deposit
 
 def select_account(user):
     '''계좌 선택'''
@@ -35,7 +35,7 @@ def select_service(account):
         if opt == 1:
             check_balance(account)
         elif opt == 2:
-            # 
+            deposit(account)
             print(2)
         elif opt == 3:
             # 
