@@ -42,7 +42,7 @@ def insert_card():
         pin = input('PIN 입력: ')
         if user['pin'] == pin:
             print(f"안녕하세요, {user['name']}님.")
-            return user["accounts"]
+            return user
         
         attempts += 1
         print(f"인증에 실패했습니다. 앞으로 {3 - attempts} 시도 가능합니다.")
