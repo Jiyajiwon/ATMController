@@ -1,0 +1,60 @@
+{
+    "users": [
+        {
+            "name": "Jiwon Ryu",
+            "card_number": "1234-5678-0000-0001",
+            "pin": "0001",
+            "accounts": [
+                {
+                    "account_number": "1001001",
+                    "balance": 5000
+                },
+                {
+                    "account_number": "1001002",
+                    "balance": 250000
+                }
+            ],
+            "restriction": false
+        },
+        {
+            "name": "Dale Carnegie",
+            "card_number": "1234-5678-0000-0002",
+            "pin": "0002",
+            "accounts": [
+                {
+                    "account_number": "2001001",
+                    "balance": 5800
+                },
+                {
+                    "account_number": "2001002",
+                    "balance": 40000
+                }
+            ],
+            "restriction": false
+        },
+        {
+            "name": "Jared Diamond",
+            "card_number": "1234-5678-0000-0003",
+            "pin": "0003",
+            "accounts": [
+                {
+                    "account_number": "3001001",
+                    "balance": 1000000
+                }
+            ],
+            "restriction": false
+        },
+        {
+            "name": "Karri Hill",
+            "card_number": "1234-5678-0000-0004",
+            "pin": "0004",
+            "accounts": [
+                {
+                    "account_number": "4001001",
+                    "balance": 999000000
+                }
+            ],
+            "restriction": false
+        }
+    ]
+}
