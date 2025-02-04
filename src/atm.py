@@ -1,4 +1,4 @@
-from src.transaction import check_balance, deposit
+from src.transaction import check_balance, deposit, withdraw
 
 def select_account(user):
     '''계좌 선택'''
@@ -34,14 +34,16 @@ def select_service(account):
 
         if opt == 1:
             check_balance(account)
+            print("===============================================")
         elif opt == 2:
             deposit(account)
-            print(2)
+            print("===============================================")
         elif opt == 3:
-            # 
-            print(3)
+            withdraw(account)
+            print("===============================================")
         elif opt == 4:
             print("거래를 종료합니다.")
+            print("===============================================")
             break
         else:
             print("유효하지 않은 입력입니다. 다시 시도하세요.")
