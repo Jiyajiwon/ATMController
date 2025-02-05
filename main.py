@@ -3,7 +3,7 @@ from src.atm import select_account, select_service
 
 def main():
     '''ATM 실행'''
-    print("지원 ATM입니다.")
+    print("지원 ATM입니다. 어서오세요.")
 
     # 사용자 카드 삽입 및 PIN 인증
     user = insert_card()
